@@ -1,0 +1,26 @@
+# --- Generic/OS Files ---
+.DS_Store
+Thumbs.db
+
+# --- Environment/Secret Files ---
+# This ignores .env files in the root and in any subfolder
+**.env
+**.env.local
+
+# --- Node.js / JavaScript Services ---
+**/node_modules/
+**/dist/
+**/.npm
+
+# --- Python Services ---
+**/__pycache__/
+**/*.pyc
+**/.venv/
+
+# --- Java / Spring Boot Services ---
+**/target/
+**/.gradle/
+**/build/
+
+# --- Docker ---
+**/.dockerignore
